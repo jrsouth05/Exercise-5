@@ -80,7 +80,7 @@
     /* Positioning */
 
     #container3 {
-      width: 1000px;
+      width: 100%;
       height: 500px;
       background-color: #2DE1C2;
       clear: both;
@@ -88,17 +88,25 @@
       top: 20px;
     }
 
-    #blockG {
-      width: 333px;
-      height: 200px;
-      background-color: #7FBEAB;
-    }
+   #blockG {
+  width: 333px;
+  height: 200px;
+  background-color: #7FBEAB;
+  position: relative;
+  top: 50px;    
+  left: 50px;   
+  float: left;  
+}
 
-    #blockH {
-      width: 333px;
-      height: 200px;
-      background-color: #7E998A;
-    }
+#blockH {
+  width: 333px;
+  height: 200px;
+  background-color: #7E998A;
+  position: fixed;
+  top: 500px;   
+  left: 400px;  /* Positions block H next to block G */
+}
+    
   </style>
 
   <body>
